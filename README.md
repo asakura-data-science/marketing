@@ -33,10 +33,10 @@
 
 #### 2.1. 実行環境の構築
 
-最も簡単に実行したい方はGoogle Colaboratoryの使用を検討してください。
-本書のまえがきではDockerコンテナの利用を推奨していましたが、
-本書の発売前にGoogle Colabによる動作確認を行いました。
-Google Colaboratory（以下Colabと呼ぶ）はGoogleが提供するクラウドのPython実行環境で，
+最も簡単に実行したい方はGoogle Colaboratory（以下Colabと呼ぶ)の使用を検討してください。
+本書のまえがきではDockerコンテナの利用を推奨していましたが，
+本書の発売前にColabによる動作確認を行いました。
+ColabはGoogleが提供するクラウドのPython実行環境で，
 ブラウザからPythonコードが実行できます。
 それ以外の方法で実行環境を構築したい場合は，本書のシリーズ「データの前処理」で公開されているGitHub
 (https://github.com/asakura-data-science/preprocessing)
@@ -45,9 +45,9 @@ Google Colaboratory（以下Colabと呼ぶ）はGoogleが提供するクラウ�
 以下では，Colabの利用を前提に説明します。
 
 #### 2.2. Google ColabへのログインとGoogle Driveの連携
-まずColab (https://colab.research.google.com/notebooks/welcome.ipynb?hl=ja)
+以前にColabにログインしたことがあり，Google Driveに「マイドライブ > Colab Notebooks」が作成されていれば「2.3.サンプルコードのダウンロード」に進んでください。
+初めてColabにログインする方は、Colab (https://colab.research.google.com/notebooks/welcome.ipynb?hl=ja)
 にアクセスします。
-以前にログインし、Google Driveに「マイドライブ > Colab Notebooks」が作成されていれば「2.3.サンプルコードのダウンロード」に進んでください。
 「Colaboratory へようこそ」というページが表示されていればファイルメニューから「ドライブにコピーを保存」
 を選択してください。
 これでGoogle Driveに「マイドライブ > Colab Notebooks」というフォルダが作成され，そこにファイルが保存されています。
@@ -65,7 +65,7 @@ Google Colaboratory（以下Colabと呼ぶ）はGoogleが提供するクラウ�
 
 ## 3. 実行方法
 Colabに保存したプログラムを起動します。
-ここでは，Google Driveに保存したmarketing > Chapter_3 > 3_1.ipynbをダブルクリックで起動します。
+ここでは，例としてGoogle Driveに保存したmarketing > Chapter_3 > 3_1.ipynbをダブルクリックで起動します。
 起動したファイルを実行する場合はいくつか方法がありますが，例えば，ランタイムメニューの「全てのセルを実行」
 を選択すると全てのコードが実行されます。
 個別に実行したい場合は，実行したいセルにカーソルを併せて，矢印ボタンをクリックすることで実行できます。
